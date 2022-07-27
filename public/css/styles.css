@@ -1,0 +1,293 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+/* header general */
+header
+{
+    background-color: rgb(157, 128, 84);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo
+{
+    width: 100px;
+    height: 120x;
+    margin-top: 10px;
+}
+
+/* main header */
+.right-header ul
+{
+    display:flex;
+    width: 50vw;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.right-header ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    color:black;
+}
+
+.right-header ul li a:hover
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    font-style: italic;
+}
+
+
+body
+{
+background-color: rgb(245, 245, 220);
+}
+
+.imgservicio
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+section ol li
+{
+    text-align: center;
+}
+/* seccion animacion */
+.firtsection
+{   
+    height: 10vh;
+    display: flex;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.entrada{
+color: white;
+font-size: 20px;
+animation-name: entrada;
+animation-duration: 1000ms;
+animation-iteration-count: infinite;
+animation-duration: alternate;
+}
+
+@keyframes entrada {
+
+    0%{opacity: 0%;}
+    50% { font-size: larger;}
+    100%{opacity: 100%;}
+}
+
+/* sec izq */
+.secondsection
+{   display: flex;
+    text-align: center;
+    height: 45vh;
+    margin-top: 10px;
+}
+
+.imagen2
+{
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.secondsection div{
+   width: 50%; 
+}
+
+.parrafo-sec-left
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    align-items: center;
+    overflow: hidden;
+}
+.sec-left {
+    width: 60vw;
+    height: 30vh;
+}
+.video
+{
+    display:flex;
+    border: 4px;
+    box-shadow: 3px 3px 60px grey;
+    margin-top: 20px;
+}
+.sec-right {
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.logofondo
+{
+    width: 10%;
+    height: 15%;
+}
+
+footer
+{
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 100px;
+padding: 15px;
+background-color: #9d8054;
+font-family: 'Russo One', sans-serif;
+}
+
+footer a
+{
+    color: black;
+    border: black;
+    font-size: 30px;
+    align-items: center;
+}
+
+
+.formulario
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contacto
+{
+    width: 50%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    box-shadow: 3px 3px 60px 5px grey;
+    background-color: beige;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.imgservicio
+{
+    align-items: center;
+}
+
+.plantilla 
+{
+    height: 160px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+    
+.plantilla img
+{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position:absolute;
+    position:relative;
+ 
+}
+
+.producto
+{
+width: 300px;
+height: 300px;
+display:flex;
+border: 1px black solid;
+}
+.producto2
+{
+    width: 300px;
+    height: 300px;
+    display:flex;
+    border: 1px black solid;
+}
+.producto .producto2
+{
+box-shadow: 3px 3px 60px grey;
+}
+.prodimagenes
+{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+
+.redes
+{
+    display:flex;
+    width: 40vw;
+    margin-left: 380px;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+
+.menu-desplegable
+{
+    background-color: black;
+    color:white;
+    display:block;
+    max-width: 50px;
+    padding:15px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+}
+
+@media (min-width: 361px){ //*celular*//
+.right-header ul
+{ 
+    display:none;
+}
+
+.menu-desplegable
+{
+    display:none;
+    }
+}
+//*
+@media (min-width: 769px){
+    .right-header ul {
+    }
+nav ul{
+    display: contents;
+}
+//*
+}
+

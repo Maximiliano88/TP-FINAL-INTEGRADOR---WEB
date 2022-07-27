@@ -1,0 +1,25 @@
+GUIA EJECUCIONAL
+
+Página web original - 
+IMPRENTA LEGRAF ARTES GRAFICAS .SRL
+http://legraf.com.ar/home.php 
+
+Objetivo:
+Modernizar la identidad coorporativa de Legraf
+Creando su logo, sus novedades nuevas.
+Mejora de accesibilidad en la web.
+
+Paleta de color:
+Header y footer: #9d8054 - RGB(157, 128, 84)
+body: beige - #f5f5dc - RGB(245, 245, 220)
+
+Fuentes utilizadas : sans serif / russo / franklin
+
+Recursos de otros sitios web:
+figma / Google Fonts / Font Awesome / mycolor-space / 
+Formulario vinculado a cuenta en formspree / GITHUB 
+
+NOTA: SE UTILIZÓ HTML CON LOS ESTILOS DE CSS 
+NO SE USO BOOSTRAP
+
+SE ENTREGA EN GITHUB
